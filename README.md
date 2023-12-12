@@ -11,7 +11,7 @@ Refugee Resettlement ML Project
 For the full model shown in OpenStreetMaps in Lebanon, please visit: https://raw.githack.com/oscardepp/refugeeresettlement/main/intensity_map.html. 
 
 ## Introduction
-This project assists refugee resettlement given a large-scale disaster in the world in a two-part, comprehensive model. The first part asks: a natural disaster hits a particular country: can we predict how many people will be displaced from their homes? In which the second part follows: given a proportion of those who are displaced, what are suitable locations to which they relocate in that country? Our model uses natural disasters and settlements in Lebanon to assess the damage, but the features and methodology could be easily generalized and abstracted to construct a more ubiquitous and robust framework.
+This project assists refugee resettlement given a large-scale disaster in the world in a two-part, comprehensive model. The first part asks: a natural disaster hits a particular country: can we predict how many people will be displaced from their homes? In which the second part follows: given a proportion of those who are displaced, what are suitable locations to which they relocate in that country? Our model uses natural disasters and settlements in Lebanon to assess the damage, but the features and methodology could be easily generalized and abstracted to construct a more ubiquitous and robust framework. Having refugees settle based on quality of life and not just proximity seems like a better metric to use. 
 
 ## Data 
 
@@ -36,6 +36,33 @@ These were then scaled using sklearn's MinMaxScaler to weigh each numerical and 
 ## Model
 
 Gaussian Mixture Models were used to group informal settlements by the twelve features used. The means of the top ten Gaussians were compared against the centers of each cluster in K-means clustering, and the number of Gaussians and Clusters was determined by how similar they were(evaluated using the Pearson Correlation Coefficient). To have the GMM be independent of the K-means clustering, the GMM in sklearn was initialized to 'random'. Scores, or the ranking of each group of camps were determined by calculating the norm of each Gaussian mean. The 
+
+## Results 
+
+<div align="center">
+  <div style="display: inline-block; margin: 10px;">
+    <img width="986" alt="Image 1" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f">
+    <h5>Fig 4a. Tripoli Model Comparison.</h5>
+  </div>
+
+  <div style="display: inline-block; margin: 10px;">
+    <img width="1103" alt="Image 2" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d">
+    <h5>Fig 4b. Hermel Model Comparison.</h5>
+  </div>
+</div>
+<!--
+<p align="center">
+<img width="986" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f">
+</p>
+<h5 align="center">Fig 4. Northern Regions Model Comparison.</h5>
+
+<p align="center">
+<img width="1103" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d">
+</p>
+<h5 align="center">Fig 5. Northern Regions Model Comparison.</h5>
+-->
+
+## Analysis
 
 ## Data Access & Citations
 
