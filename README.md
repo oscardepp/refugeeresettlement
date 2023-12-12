@@ -38,7 +38,7 @@ These were then scaled using sklearn's MinMaxScaler to weigh each numerical and 
 Gaussian Mixture Models were used to group informal settlements by the twelve features used. The means of the top ten Gaussians were compared against the centers of each cluster in K-means clustering, and the number of Gaussians and Clusters was determined by how similar they were(evaluated using the Pearson Correlation Coefficient). To have the GMM be independent of the K-means clustering, the GMM in sklearn was initialized to 'random'. Scores, or the ranking of each group of camps were determined by calculating the norm of each Gaussian mean. The 
 
 ## Results 
-
+<!--
 <div align="center">
   <div style="display: inline-block; margin: 10px;">
     <img width="400" alt="Image 1" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f">
@@ -49,7 +49,11 @@ Gaussian Mixture Models were used to group informal settlements by the twelve fe
     <img width="450" alt="Image 2" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d">
     <h5>Fig 5. Hermel Model Comparison.</h5>
   </div>
-</div>
+</div> -->
+| ![Image 1](https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f) | ![Image 2](https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d) |
+| --- | --- |
+| **Fig 4. Northern Regions Model Comparison.** | **Fig 5. Northern Regions Model Comparison.** |
+
 <!--
 <p align="center">
 <img width="986" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f">
