@@ -1,8 +1,10 @@
 # Refugee Resettlement Assistance Model (RRAM) 
 <!-- <img width="1088" alt="modelcomparison" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/6478280b-574f-4ef2-8e23-76449577adf9"> -->
-![GMM Model Comparison](https://github.com/oscardepp/refugeeresettlement/assets/137336589/6478280b-574f-4ef2-8e23-76449577adf9)
+<p align="center">
+  <img width="1088" alt="GMM Model Comparison" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/6478280b-574f-4ef2-8e23-76449577adf9">
+</p>
 
-**Fig 1. GMM Model Comparison of 2016 Informal Settlements in Lebanon with UNHCR WASH Survey in 2013.**
+<h5 align="center">Fig 1. GMM Model Comparison of 2016 Informal Settlements in Lebanon with UNHCR WASH Survey in 2013.</h5>
 
 
 ## Introduction
