@@ -41,13 +41,13 @@ Gaussian Mixture Models were used to group informal settlements by the twelve fe
 
 <div align="center">
   <div style="display: inline-block; margin: 10px;">
-    <img width="986" alt="Image 1" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f">
-    <h5>Fig 4a. Tripoli Model Comparison.</h5>
+    <img width="400" alt="Image 1" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f">
+    <h5>Fig 4. Tripoli Model Comparison.</h5>
   </div>
 
   <div style="display: inline-block; margin: 10px;">
-    <img width="1103" alt="Image 2" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d">
-    <h5>Fig 4b. Hermel Model Comparison.</h5>
+    <img width="450" alt="Image 2" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d">
+    <h5>Fig 5. Hermel Model Comparison.</h5>
   </div>
 </div>
 <!--
