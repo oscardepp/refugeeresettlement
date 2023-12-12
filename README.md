@@ -35,18 +35,28 @@ These were then scaled using sklearn's MinMaxScaler to weigh each numerical and 
 
 ## Model
 
-Gaussian Mixture Models were used to group informal settlements by the twelve features used. The means of the top ten Gaussians were compared against the centers of each cluster in K-means clustering, and the number of Gaussians and Clusters was determined by how similar they were(evaluated using the Pearson Correlation Coefficient). To have the GMM be independent of the K-means clustering, the GMM in sklearn was initialized to 'random'. Scores, or the ranking of each group of camps were determined by calculating the norm of each Gaussian mean. The scores were then plotted with the latitude and longitude pairs on OpenStreetMaps(OSM).
+Gaussian Mixture Models, unsupervised learning techniques, were used to group informal settlements by the twelve features used. The means of the top ten Gaussians were compared against the centers of each cluster in K-means clustering, and the number of Gaussians and Clusters was determined by how similar they were(evaluated using the Pearson Correlation Coefficient). To have the GMM be independent of the K-means clustering, the GMM in Sklearn was initialized to 'random'. Scores, or the ranking of each group of camps were determined by calculating the norm of each Gaussian mean. The scores were then plotted with the latitude and longitude pairs on OpenStreetMaps(OSM).
 
 ## Results 
+
+Figures 4-6 illustrate some ways that these scores can be utilized for practical means. 
 
 | ![Image 1](https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac6ff8d5-63b9-46e7-8a9a-2e6007f7e84f) | ![Image 2](https://github.com/oscardepp/refugeeresettlement/assets/137336589/28a09870-1bb7-44b8-b735-c8d7bcb97d2d) |
 | --- | --- |
 | **Fig 4a. Aakar Model Comparison.** | **Fig 4b. Hermel Model Comparison.** |
-
+<p align="center">
 <img width="1045" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/38384d12-dffb-481e-9fe1-39da7b11c976">
-
+</p>
+<h5 align="center">Fig 5. Combining Education metrics with WASH survey data to make conclusions about quality of life.</h5>
+<p align="center">
+<img width="1070" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/6e8d51c0-b0a5-4bf6-b38f-6f601157b5fd">
+</p>
+<h5 align="center">Fig 6. Best regions according to our model and other surveys to move to if needed temporarily.</h5>
 
 ## Analysis
+
+
+
 
 ## Data Access & Citations
 
