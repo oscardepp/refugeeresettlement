@@ -20,19 +20,22 @@ There were 6272 observations in this dataset. As unsupervised learning was used 
 
 ## Data Processing
 
-<img width="879" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac9b739c-2112-4138-8326-6ac46f9c370a">
+<p align="center">
+  <img width="879" alt="Image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/ac9b739c-2112-4138-8326-6ac46f9c370a">
+</p>
 <h5 align="center">Fig 2. Rankings of Water Sources according to WASH survey guidelines[3].</h5>
 
 Qualitative Features were converted into quantitative rankings loosely following guidelines published by the UNHCR's Water, Sanitation & Hygiene (WASH) survey & Standardized Expanded Nutrition Survey(SENS), with an example mapping of water sources to numbers shown in Figure 2. Some features had over 50% missing or "other" data, as this information was taken from the UN and in refugee camps where often information about latrines, water capacity, or individuals living in an area is unknown. We treated the large-scale unknown data as a missing category, with a neutral feature. Some disadvantages of this are that this increases the variance and uncertainty of the model quite significantly, but allows statements about the informal settlements. 
-
+<p align="center">
 <img width="642" alt="image" src="https://github.com/oscardepp/refugeeresettlement/assets/137336589/c8c0c5cb-f198-4de7-b56f-3e9d759b2f64">
+</p>
 <h5 align="center">Fig 3. Converted Quantitative Scales from Categorical Features.</h5>
 
 These were then scaled using sklearn's MinMaxScaler to weigh each numerical and categorical feature equally from 0 to 1. 
 
 ## Model
 
-Gaussian Mixture Models and K-means clustering were used to generate groups of camps based on how adequate the features described in the data section were. The validity of the GMM was assessed by determining the closeness between the norms of the top ten Gaussians and Clusters using the Pearson Correlation Coefficient.
+Gaussian Mixture Models were used to group informal settlements by the twelve features used. The means of the top ten Gaussians were compared against the centers of each cluster in K-means clustering, and the number of Gaussians and Clusters was determined by how similar they were(evaluated using the Pearson Correlation Coefficient). To have the GMM be independent of the K-means clustering, the GMM in sklearn was initialized to 'random'. Scores, or the ranking of each group of camps were determined by calculating the norm of each Gaussian mean. The 
 
 ## Data Access & Citations
 
