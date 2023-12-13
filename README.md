@@ -67,8 +67,8 @@ Possible extensions of this project include combining it quantitatively with edu
 
 Dataset used: 
 
-[1] F. Coloni, D. Adams, and F. Hanga, “Syria refugee response,” Syria Refugee Response WASH Sector Working Group Implementation of Water and Sanitation Activities January to July 2013, https://www.ecoi.net/en/file/local/1144452/1930_1377696781_syria-refugee-response.pdf (accessed Dec. 12, 2023). 
-[2] Lebanon Inter-Agency OCHA, “Informal Settlements (Refugees living in informal settlements).” Lebanon, Dec. 31, 2016. 
+[1] F. Coloni, D. Adams, and F. Hanga, “Syria refugee response,” Syria Refugee Response WASH Sector Working Group Implementation of Water and Sanitation Activities January to July 2013, https://www.ecoi.net/en/file/local/1144452/1930_1377696781_syria-refugee-response.pdf (accessed Dec. 12, 2023). \\
+[2] Lebanon Inter-Agency OCHA, “Informal Settlements (Refugees living in informal settlements).” Lebanon, Dec. 31, 2016. \\
 [3] UNHCR, UNHCR Standardised Expanded Nutrition Survey (SENS) Guidelines for Refugee Populations Module 7:Water, Sanitation, &amp; Hygiene (WASH). UNHCR, 2018 
 
 
