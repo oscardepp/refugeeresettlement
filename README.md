@@ -57,7 +57,9 @@ Figures 4-6 illustrate some ways that these scores can be utilized for practical
 
 From Figures 4a and 4b, it is clear that in the Hermel and Aakar regions, this model of informal settlements is consistent with the survey results from 2013. However, looking at a region like Beirut, we see that there is no data for informal settlements there because it is an urban setting.  Our model provides more specificity than the WASH survey results in this diagram provide, as our model demonstrates the mean of each grouping–demonstrating how it is satisfying these requirements, as well as for the bottom Gaussians and how it could improve.  
 
-This model could easily be combined with other information like educational data shown in Figures 5 and 6. Because it is 
+This model could easily be combined with other information like educational data shown in Figures 5 and 6. With access to UNHCR branches and public schools nearby, Zahle provides a good haven for people displaced to move to, or if the Lebanese government chooses to work on those locations, which are optimal starting places.  Figure 6 demonstrates clusters of "good locations" marked in green and indicates the best places to relocate to for large groups of people.  
+
+Possible extensions of this project include combining it quantitatively with education data, as well as using vulnerability data to assess how much conflict there is in these areas. This model is easily scalable, as the same criteria are used in African and South Asian countries where similar establishments and settlements exist. 
 
 
 
@@ -65,7 +67,7 @@ This model could easily be combined with other information like educational data
 
 Dataset used: 
 
-[1] F. Coloni, D. Adams, and F. Hanga, “Syria refugee response ,” Syria Refugee Response WASH Sector Working Group Implementation of Water and Sanitation Activities January to July 2013, https://www.ecoi.net/en/file/local/1144452/1930_1377696781_syria-refugee-response.pdf (accessed Dec. 12, 2023). 
+[1] F. Coloni, D. Adams, and F. Hanga, “Syria refugee response,” Syria Refugee Response WASH Sector Working Group Implementation of Water and Sanitation Activities January to July 2013, https://www.ecoi.net/en/file/local/1144452/1930_1377696781_syria-refugee-response.pdf (accessed Dec. 12, 2023). 
 [2] Lebanon Inter-Agency OCHA, “Informal Settlements (Refugees living in informal settlements).” Lebanon, Dec. 31, 2016. 
 [3] UNHCR, UNHCR Standardised Expanded Nutrition Survey (SENS) Guidelines for Refugee Populations Module 7:Water, Sanitation, &amp; Hygiene (WASH). UNHCR, 2018 
 
