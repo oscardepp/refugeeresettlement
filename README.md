@@ -55,6 +55,9 @@ Figures 4-6 illustrate some ways that these scores can be utilized for practical
 
 ## Analysis
 
+From Figures 4a and 4b, it is clear that in the Hermel and Aakar regions, this model of informal settlements is consistent with the survey results from 2013. However, looking at a region like Beirut, we see that there is no data for informal settlements there because it is an urban setting.  Our model provides more specificity than the WASH survey results in this diagram provide, as our model demonstrates the mean of each grouping–demonstrating how it is satisfying these requirements, as well as for the bottom Gaussians and how it could improve.  
+
+This model could easily be combined with other information like educational data shown in Figures 5 and 6. Because it is 
 
 
 
